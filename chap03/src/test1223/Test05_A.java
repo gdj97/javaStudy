@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 public class Test05_A {
 	public static void main(String[] args) {
-		/*		
+/*		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("밑변의 길이 :");
 		int bottom = scan.nextInt();
@@ -29,6 +29,5 @@ public class Test05_A {
 		System.out.println("높이의 길이 :");
 		double height = scan.nextDouble();
 		System.out.println("넓이 :"+(bottom * height) / 2);
-
 	}
 }

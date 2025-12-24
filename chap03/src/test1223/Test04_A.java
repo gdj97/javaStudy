@@ -15,6 +15,7 @@ public class Test04_A {
 		System.out.print(",");
 		System.out.print(n2);
 		System.out.println(" : 두수 중 더 큰수:" + (n1>n2?n1:n2)); //한줄출력
+		
 		System.out.print(n1+","+n2); //옆으로 출력.
 		System.out.println (" : 두수 중 더 큰수:" + 
 		           (n1>n2?n1:(n1<n2)?n2:"같다"));

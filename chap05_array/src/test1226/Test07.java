@@ -5,7 +5,6 @@ package test1226;
    12321 : 대칭수
    12345 : 대칭수 아님
  */
-
 public class Test07 {
 	public static void main(String[] args) {
 

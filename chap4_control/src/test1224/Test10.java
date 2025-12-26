@@ -20,8 +20,8 @@ String 타입의 비교는 equals()메서드를 사용함
  성별.equals("M")
 */
 
+
 public class Test10 {
 	public static void main(String[] args) {
-		
 	}
 }

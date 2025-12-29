@@ -24,8 +24,22 @@ public class ArrayEx08_arraycopy {
 		System.out.println
 		("요소의 갯수가 10개인 arr3에 arr1의 요소를 2번 인덱스부터 3개를 저장하기");
 		//2. System.arraycopy()  함수 사용하기
-		 int[] arr3 = new int[10];
+		//arraycopy(원본배열, 원본배열의시작인덱스,복사배열,복사위치인덱스,요소의갯수)
+		 int[] arr3 = new int[10]; //[10 20 30 0 0 0 0 0 0 0]
 		 System.arraycopy(arr1, 0, arr3, 2, arr1.length);
 		 System.out.println(Arrays.toString(arr3));
+		//3. Arrays.copyOf  함수 사용하기
+		//copyOf(원본배열, 갯수)
+		 int[] arr4 = Arrays.copyOf(arr3, 5);
+		 System.out.println(Arrays.toString(arr4));
+		 arr3[4]=500;
+		 System.out.println(Arrays.toString(arr3));
+		 System.out.println(Arrays.toString(arr4));
+		 int[] arr5 = arr3;  //얕은복사
+		 System.out.println(Arrays.toString(arr3));
+		 System.out.println(Arrays.toString(arr5));
+		 arr3[5] = 600;
+		 System.out.println(Arrays.toString(arr3));
+		 System.out.println(Arrays.toString(arr5));
 	}
 }

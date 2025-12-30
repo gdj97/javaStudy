@@ -26,7 +26,7 @@ public class Test07_A {
 				if (i <= j)
 					System.out.printf("%6d",sum--);
 				else
-					System.out.print("    ");
+					System.out.print("      ");
 			}
 			System.out.println();
 		}

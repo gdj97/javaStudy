@@ -48,7 +48,9 @@ public class Test03_A {
 		//result 배열 출력
 		for (int i = 0; i < result.length; i++) {
 			for (int j = 0; j < result[i].length; j++) {
-				System.out.printf("%5d", result[i][j]);
+				//printf("%5d", result[i][j]) // %d : 10진정수. %5d:5자리를 확보하여 10진정수
+//				System.out.printf("%5d", result[i][j]);
+				System.out.print(result[i][j] + "\t");
 			}
 			System.out.println();
 		}

@@ -74,11 +74,13 @@ public class Test04_A {
 						max = scores[i];
 					}
 				}
-				avg = (double)sum / studentNum;
+//				avg = (double)sum / studentNum;
+				avg = (double)sum / scores.length;
 				System.out.println("최고 점수:" + max);
 				System.out.println("평균 점수:" + avg);
 			} else if (selectNo == 5) {
 				run = false;
+//				break;
 			}
 		}
 		System.out.println("프로그램 종료");

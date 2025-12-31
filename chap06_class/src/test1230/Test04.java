@@ -6,7 +6,7 @@ package test1230;
 
 public class Test04 {
 	public static void main(String[] args) {
-		Watch watch = new Watch();   
+		Watch watch = new Watch();
 		watch.hour = 16;
 		watch.minute = 15;
 		watch.second = 30;

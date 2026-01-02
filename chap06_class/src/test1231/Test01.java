@@ -21,9 +21,9 @@ package test1231;
  */
 public class Test01 {
 	public static void main(String[] args) {
-		Student s = new Student("홍길동", 1);
+		Student s = new Student("홍길동", 1); //이름,학번
 		s.info();
-		Student s2 = new Student("김삿갓", 2, 80, 90, 70);
+		Student s2 = new Student("김삿갓", 2, 80, 90, 70); //이름,학번,국어,영어,수학
 		s2.info();
 	}
 }

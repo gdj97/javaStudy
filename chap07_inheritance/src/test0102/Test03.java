@@ -9,11 +9,9 @@ class Car {
 	}
 }
 class Ev extends Car {
-
 	public void charge() {
 		System.out.println("충전한다.");
 	}
-	
 }
 
 public class Test03 {

@@ -13,7 +13,7 @@ package test0102;
 9번 좌석 : 비어 있음
 10번 좌석 : 비어 있음
  */
-/*class Bus {
+class Bus {
 	Seat[] seats;        // 여러 좌석이 있음
 	int passengerLimit;  // 버스 정원
 	// 생성자
@@ -54,8 +54,14 @@ class Person {
 class Seat {
 	Person person;
 }
-*/
-public class Test04 {
+
+class Student extends Person {
+	public Student (String name) {
+		super(name);
+	}
+}
+
+public class Test04_A {
 	public static void main(String[] args) {
 		Bus bus = new Bus(10);  // 10인승 버스(좌석번호는 1부터 10까지 부여)
 		bus.riding(1, new Person("홍길동"));  // 1번 좌석에 홍길동 앉음

@@ -22,6 +22,7 @@ public class Test02 {
 		Cider cider = new Cider(1500,1000);//가격, 용량(ml)
 		Biscuit bis = new Biscuit(10000,500);//가격, 무게(gram)
 		Cookie cookie = new Cookie(500,5000);//가격, 무게(gram)
+		
 	}
 }
 

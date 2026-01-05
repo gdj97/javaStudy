@@ -56,8 +56,8 @@ public class Test02 {
 	public static void main(String ... args) {
 		Apple apple = new Apple(1000,10.5);//가격, 당도(brix)
 		Peach peach = new Peach(1000,13.5);//가격, 당도(brix)
-		Cock cock = new Cock(500,500);   //가격, 용량(ml)
-		Sidar sidar = new Sidar(1500,1000);//가격, 용량(ml)
+		Coke cock = new Coke(500,500);   //가격, 용량(ml)
+		Cider sidar = new Cider(1500,1000);//가격, 용량(ml)
 		Biscuit bis = new Biscuit(10000,500);//가격, 무게(gram)
 		Cookie cookie = new Cookie(500,5000);//가격, 무게(gram)
 		

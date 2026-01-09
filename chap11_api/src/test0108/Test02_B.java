@@ -2,10 +2,9 @@ package test0108;
 /*
  * 학생클래스의 객체중 학번과 이름이 같다면 같은 학생이 되도록 Student 클래스 수정하기
  [결과]
-[학번=100, 이름=홍길동, 전공=경영]과 [학번=100, 이름=홍길동, 전공=컴공]는 다른 객체입니다.
-[학번=100, 이름=홍길동, 전공=경영]과 [학번=100, 이름=홍길동, 전공=컴공]학생은 같은 학생입니다.
+[학번=100, 이름=홍길동,전공=경영]과 [학번=100, 이름=홍길동,전공=컴공]는 다른 객체입니다.
+[학번=100, 이름=홍길동,전공=경영]과 [학번=100, 이름=홍길동,전공=컴공]학생은 같은 학생입니다. 
  */
-/*
 class Student {
 	int studno;
 	String name;
@@ -15,9 +14,15 @@ class Student {
 		this.name = name;
 		this.major = major;
 	}
+	public boolean equals(Student s) {
+		return studno == s.studno && name.equals(s.name);
+	}
+	@Override
+	public String toString() {
+		return "[학번=" + studno + ", 이름=" + name + ", 전공=" + major + "]";
+	}
 }
-*/
-public class Test02 {
+public class Test02_B {
 	public static void main(String[] args) {
 		Student s1 = new Student(100,"홍길동","경영");
 		Student s2 = new Student(100,"홍길동","컴공");

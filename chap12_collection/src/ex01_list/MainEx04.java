@@ -21,7 +21,7 @@ public class MainEx04 {
 		System.out.println(list2);
 
 		//0.1, 0.2, 0.3 list3에 저장하고, 출력하기
-		
-		
+		List<Double> list3 = Arrays.asList(0.1,0.2,0.3);
+		System.out.println(list3);		
 	}
 }

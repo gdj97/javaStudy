@@ -9,6 +9,7 @@ List  객체의 요소의 합을 구하고,
 
 최대값과 최소값 :
 Collections.max(list)와 Collections.min(list) 함수를 이용한다
+list.indexOf(객체) : 객체의 위치 리턴
 중간값 :
  요소의 갯수가 홀수인 경우 : 가운데 값
  요소의 갯수가 짝수인 경우 : 가운데 값 2개의 평균

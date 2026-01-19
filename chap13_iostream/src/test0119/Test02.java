@@ -2,10 +2,10 @@ package test0119;
 
 
 /*
- bin/ex01_inputstream/MainEx01_inputstream.class 파일은 이진 파일이다. 
+ bin/ex01_input/MainEx01_inputstream.class 파일은 이진 파일이다. 
  이파일을 읽어서 16진수로 출력하기
  
- [결과]
+[결과]
 CA FE BA BE 00 00 00 34 00 8E 07 00 02 01 00 17 
 63 68 61 70 31 35 2F 50 72 69 6E 74 53 74 72 65 
 61 6D 54 65 73 74 32 07 00 04 01 00 10 6A 61 76 

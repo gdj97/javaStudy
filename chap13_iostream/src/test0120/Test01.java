@@ -11,7 +11,7 @@ package test0120;
  라인수
  3
  
-1:package ex01_inputstream;
+1:package ex01_input;
 2:
 3:import java.io.IOException;
  */

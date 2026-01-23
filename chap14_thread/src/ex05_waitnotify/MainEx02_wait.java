@@ -10,9 +10,12 @@ package ex05_waitnotify;
 class ATM2 implements Runnable { //구현클래스. Thread 클래스 아님
 	private int money = 100000;
 	public void run() {
+		int time = 0;
 		try {
-			Thread.sleep((int)(Math.random() * 1000));
+			time = (int)(Math.random() * 1000);
+			Thread.sleep(time);
 		} catch(InterruptedException e) {}
+		System.out.println(Thread.currentThread().getName() + "========: " + time);
 		synchronized(this) { //철수
 			while(true) {
 				if(money <= 0) {
@@ -29,6 +32,7 @@ class ATM2 implements Runnable { //구현클래스. Thread 클래스 아님
 				}
 			}
 		}
+		System.out.println(Thread.currentThread().getName() + "동기화블럭 탈출: " + time);
 	}
 	private void withdraw() {
 		if(money <= 0) return;
